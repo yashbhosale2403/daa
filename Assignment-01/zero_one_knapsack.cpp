@@ -48,6 +48,32 @@ g++ zero_one_knapsack.cpp -o zero_one_knapsack
 */
 
 /*
+VALUES TO CHANGE (OPTIONAL)
+---------------------------
+To test different items, edit the 'items' list inside main():
+
+    vector<Item> items = {
+        {10, 60},   // {weight, value}
+        {20, 100},
+        {30, 120}
+    };
+
+Change the numbers in each pair using this format:
+    {weight, value}
+
+To change the bag's maximum weight, edit:
+
+    int capacity = 50;
+
+Example:
+    vector<Item> items = {{5, 30}, {10, 40}, {15, 50}};
+    int capacity = 20;
+
+These are values to edit in the source code, not values to type
+in the terminal. Save the file and compile it again after editing.
+*/
+
+/*
 =============================================================
 ASSIGNMENT 1(B): 0/1 KNAPSACK USING DYNAMIC PROGRAMMING
 =============================================================
