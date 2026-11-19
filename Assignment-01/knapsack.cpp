@@ -84,6 +84,39 @@ int main() {
     return 0;
 }
 
+
+/*
+=============================================================
+HOW TO COMPILE AND RUN IN UBUNTU
+=============================================================
+
+1. Install the C++ compiler:
+
+    sudo apt update
+    sudo apt install g++ -y
+
+2. Download the repository (skip this step if you already have it):
+
+    git clone https://github.com/yashbhosale2403/daa.git
+
+3. Open the Assignment 1 folder:
+
+    cd daa/Assignment-01
+
+4. Compile the C++ program:
+
+    g++ knapsack.cpp -o knapsack
+
+5. Run the program:
+
+    ./knapsack
+
+The compile command creates an executable file named "knapsack".
+The final command runs that executable.
+
+=============================================================
+*/
+
 /*
 =============================================================
 ASSIGNMENT 1: FUNCTIONAL KNAPSACK PROBLEM USING GREEDY AND
